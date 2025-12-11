@@ -20,7 +20,12 @@ A lightweight solution to filter out repetitive `!drop` spam messages from Steam
 
 ## 🎯 Overview
 
-During the Budapest Major 2025, SteamTV chat was flooded with users spamming `!drop` commands expecting some kind of response. This repository provides two JavaScript-based solutions to filter out these spam messages:
+During major steam live broadcasts, chat is constantly flooded with users spamming `!drop` commands expecting some kind of response, sheep following sheep. 
+
+<img width="1049" height="678" alt="image" src="https://github.com/user-attachments/assets/27f5cd3a-3f55-4e10-a2db-116b1b4fc0ff" />
+
+
+This repository provides two JavaScript-based solutions to filter out these spam messages:
 
 - **Network-Level JavaScript Filter**: Intercepts API calls and filters at the network level (most efficient)
 - **DOM-Level JavaScript Filter**: Examines message content in the DOM after messages load
@@ -391,3 +396,4 @@ This project is provided as-is for educational and personal use. Use at your own
 ---
 
 **Created during Budapest Major 2025**
+
