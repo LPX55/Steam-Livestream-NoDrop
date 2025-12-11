@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         SteamTV Chat !drop Filter (DOM Level)
-// @namespace    http://tampermonkey.net/
-// @version      1.3
+// @name         SteamTV Livestream Chat Spam Filter (DOM Level)
+// @namespace    https://borderless.ml
+// @version      1.4
 // @description  Filter !drop messages from SteamTV broadcast chat using DOM-level filtering
 // @match        https://steam.tv/*
 // @match        https://steamcommunity.com/*
@@ -88,4 +88,5 @@
         childList: true,
         subtree: true
     });
+
 })();
